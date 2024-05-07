@@ -65,7 +65,7 @@
       <li><code>getQuectionText()</code>: Returns the text of the question.</li>
       <li><code>getOptions()</code>: Returns the list of options for the question.</li>
       <li><code>getCorrectAnswerIndex()</code>: Returns the index of the correct answer.</li>
-      <li><code>checkAnswer(userAnswer)</code>: Checks if the user's answer is correct.</li>
+      <li><code>isCorrect(userAnswer)</code>: Checks if the user's answer is correct.</li>
     </ul>
   </li>
 </ul>
