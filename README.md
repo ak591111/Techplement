@@ -55,7 +55,7 @@
   <li><strong>Description:</strong> Represents a question in a quiz.</li>
   <li><strong>Attributes:</strong>
     <ul>
-      <li>Text: The text of the question.</li>
+      <li>questionText: The text of the question.</li>
       <li>Options: A list of options for the question.</li>
       <li>CorrectAnswerIndex: The index of the correct answer in the options list.</li>
     </ul>
