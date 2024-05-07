@@ -42,9 +42,9 @@
   </li>
   <li><strong>Methods:</strong>
     <ul>
-      <li><code>get_topic()</code>: Returns the topic of the quiz.</li>
-      <li><code>get_questions()</code>: Returns the list of questions in the quiz.</li>
-      <li><code>add_question(question)</code>: Adds a question to the quiz.</li>
+      <li><code>getTopic()</code>: Returns the topic of the quiz.</li>
+      <li><code>getQuestions()</code>: Returns the list of questions in the quiz.</li>
+      <li><code>addQuestion(question)</code>: Adds a question to the quiz.</li>
     </ul>
   </li>
 </ul>
@@ -57,15 +57,15 @@
     <ul>
       <li>Text: The text of the question.</li>
       <li>Options: A list of options for the question.</li>
-      <li>Correct Answer Index: The index of the correct answer in the options list.</li>
+      <li>CorrectAnswerIndex: The index of the correct answer in the options list.</li>
     </ul>
   </li>
   <li><strong>Methods:</strong>
     <ul>
-      <li><code>get_text()</code>: Returns the text of the question.</li>
-      <li><code>get_options()</code>: Returns the list of options for the question.</li>
-      <li><code>get_correct_answer_index()</code>: Returns the index of the correct answer.</li>
-      <li><code>check_answer(user_answer)</code>: Checks if the user's answer is correct.</li>
+      <li><code>getQuectionText()</code>: Returns the text of the question.</li>
+      <li><code>getOptions()</code>: Returns the list of options for the question.</li>
+      <li><code>getCorrectAnswerIndex()</code>: Returns the index of the correct answer.</li>
+      <li><code>checkAnswer(userAnswer)</code>: Checks if the user's answer is correct.</li>
     </ul>
   </li>
 </ul>
@@ -91,28 +91,12 @@
   <li>Users can take quizzes and receive feedback on their performance, including the total score.</li>
 </ul>
 
-<h2>Usage</h2>
-
-<ol>
-  <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/quiz-app.git</code></pre>
-  </li>
-  <li>Compile the source code:
-    <pre><code>cd quiz-app
-javac *.java</code></pre>
-  </li>
-  <li>Run the QuizApp:
-    <pre><code>java QuizApp</code></pre>
-  </li>
-</ol>
 
 <h2>Contributing</h2>
 
 <p>Contributions are welcome! If you have any suggestions, improvements, or feature requests, please open an issue or submit a pull request.</p>
 
-<h2>License</h2>
 
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
 </body>
 </html>
