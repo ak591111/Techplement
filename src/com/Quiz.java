@@ -27,9 +27,9 @@ public class Quiz {
 		this.questions = questions;
 	}
 
-	public void addQuestion(Question question)
-	{
-		questions.add(question);
+	public void addQuestion(String questionText, ArrayList<String> options, int correctAnswerIndex) {
+	    Question question = new Question(questionText, options, correctAnswerIndex);
+	    questions.add(question);
 	}
 	
 	
