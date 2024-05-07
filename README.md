@@ -3,13 +3,11 @@ week-1 assignment
 This project is a simple Quiz Application implemented in Java. Here's an overview of its components:
 
 <b>QuizApp Class</b>
-This is the main class of the application.
-It provides a console-based menu-driven interface for users to interact with the quiz application.
-Users can:
-Create a new quiz.
-Add questions to an existing quiz.
-Take a quiz.
-Exit the application.
+<ul>This is the main class of the application.</ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
+<ul></ul>
 Quiz Class
 Represents a quiz.
 Each quiz has a topic and a list of questions.
